@@ -9,7 +9,7 @@ import { HardhatUserConfig } from "hardhat/config";
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   solidity: {
-    compilers: [{ version: "0.8.0", settings: {} }],
+    compilers: [{ version: "0.8.11", settings: {} }],
   },
   networks: {
     hardhat: {},
